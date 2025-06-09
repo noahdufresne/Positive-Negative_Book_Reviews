@@ -32,7 +32,8 @@ How can we automatically detect reader sentiment in text reviews to improve book
 
 ## 📊 Visualizations
 
-Model performance was visualized using ROC curves and confusion matrices. [Add screenshots or include plots in notebook]
+Model performance was visualized using ROC curves and confusion matrices. ![image](https://github.com/user-attachments/assets/3ae53e58-d28b-4997-826b-69f3c7d74cd4)
+
 
 ## 📁 Repository Structure
 
