@@ -14,12 +14,12 @@ How can we automatically detect reader sentiment in text reviews to improve book
 
 - Applied **TF-IDF vectorization** with n-gram feature engineering to extract signals from review text
 - Trained a **logistic regression model** using Scikit-learn
-- Evaluated model performance using **ROC-AUC**, confusion matrices, and runtime analysis
+- Evaluated model performance using **ROC-AUC**, and runtime analysis
 - Tuned document frequency thresholds (`min_df`) to optimize the tradeoff between feature space size and classification performance
 
 ## 📈 Key Results
 
-- **AUC Score:** Up to 0.89 on test data
+- **AUC Score:** Up to 0.92 on test data
 - **Data:** 1,973 labeled book reviews (binary: positive/negative)
 - **Vectorizer:** TF-IDF with n-gram range (1,2)
 - **Classifier:** Logistic Regression with `max_iter=200`
@@ -32,7 +32,7 @@ How can we automatically detect reader sentiment in text reviews to improve book
 
 ## 📊 Visualizations
 
-Model performance was visualized using ROC curves and confusion matrices. ![image](https://github.com/user-attachments/assets/3ae53e58-d28b-4997-826b-69f3c7d74cd4)
+Model performance was visualized using ROC curves. ![ROC_curve](https://github.com/user-attachments/assets/3ae53e58-d28b-4997-826b-69f3c7d74cd4)
 
 
 ## 📁 Repository Structure
